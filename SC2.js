@@ -11,11 +11,11 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
     		    	{word : 'ross'}, 
-    			{word : 'murray.jpg'}, 
-    			{word : 'baxter.jpg'}, 
-    			{word : 'jess.jpg'}, 
-    			{word : 'kevyn.jpg'}, 
-    			{word : 'bugs.jpg'}
+    			{word : 'murray'}, 
+    			{word : 'baxter'}, 
+    			{word : 'jess'}, 
+    			{word : 'kevyn'}, 
+    			{word : 'bugs'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
