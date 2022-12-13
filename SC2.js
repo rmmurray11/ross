@@ -3,9 +3,9 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Murray', //Will appear in the data.
+		    name : 'Black people', //Will appear in the data.
 		    title : {
-		      media : {word : 'Ross'}, //Name of the category presented in the task.
+		      media : {word : 'Black people'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
@@ -30,7 +30,7 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'McInnes'},
+				{word: 'Bomb'},
 				{word: 'Abuse'},
 				{word: 'Sadness'},
 				{word: 'Pain'},
@@ -65,3 +65,4 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
   }}
   );
   });
+
