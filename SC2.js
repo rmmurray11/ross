@@ -3,7 +3,7 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'GirlNames', //Will appear in the data.
+		    name : 'Girls', //Will appear in the data.
 		    title : {
 		      media : {word : 'Girl'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
