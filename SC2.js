@@ -30,7 +30,7 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
+				{word: 'McInnes'},
 				{word: 'Abuse'},
 				{word: 'Sadness'},
 				{word: 'Pain'},
