@@ -20,57 +20,57 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Define the category.
 			category :  
 			{
-				name : 'Black People', //Category name to be used for feedback and logging.
+				name : 'GirlNames', //Category name to be used for feedback and logging.
 				title : {
-					media : {word : 'Black People'}, //Name of the category presented in the task.
+					media : {word : 'Girl'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-    		  		  	{word : 'ross'}, 
-    					{word : 'murray'}, 
-    					{word : 'baxter'}, 
-    					{word : 'jess'}, 
-    					{word : 'kevyn'}, 
-    					{word : 'bugs'}
+					{word: 'Barbie'},
+					{word: 'Dress'},
+					{word: 'Perfume'},
+					{word: 'Nails'},
+					{word: 'Dolls'},
+					{word: 'Pink'}
 				],
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
 			},	
 			attribute1 : 
 			{
-				name : 'Unpleasant', //Attribute name to be used for feedback and logging
+				name : 'Not Sport', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Unpleasant'}, //Name of the category presented in the task.
+					media : {word : 'Not Sport'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'McInnes'},
-					{word: 'Abuse'},
-					{word: 'Sadness'},
-					{word: 'Pain'},
-					{word: 'Poison'},
-					{word: 'Grief'}
+					{word: 'Barbie'},
+					{word: 'Dress'},
+					{word: 'Perfume'},
+					{word: 'Nails'},
+					{word: 'Dolls'},
+					{word: 'Pink'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
 			},
 			attribute2 : 
 			{
-				name : 'Pleasant', //Attribute name to be used for feedback and logging
+				name : 'Sport', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Pleasant'}, //Name of the category presented in the task.
+					media : {word : 'Sport'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Paradise'},
-					{word: 'Pleasure'},
-					{word: 'Cheer'},
-					{word: 'Wonderful'},
-					{word: 'Splendid'},
-					{word: 'Love'}
+					{word: 'Baseball'},
+					{word: 'Athlete'},
+					{word: 'Run'},
+					{word: 'Speed'},
+					{word: 'Activity'},
+					{word: 'Homerun'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
