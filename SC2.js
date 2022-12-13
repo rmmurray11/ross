@@ -10,12 +10,12 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    	{word : 'ross'}, 
+    			{word : 'murray.jpg'}, 
+    			{word : 'baxter.jpg'}, 
+    			{word : 'jess.jpg'}, 
+    			{word : 'kevyn.jpg'}, 
+    			{word : 'bugs.jpg'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
