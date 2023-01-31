@@ -10,8 +10,8 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'B1.jpeg'}, 
-    			{image : 'B2.jpeg'}, 
+    		    	{word : 'Jenny'}, 
+    			{word : 'Jen'}, 
     			{word : 'Katy'}, 
     			{word : 'Madison'}, 
     			{word : 'Amy'}, 
