@@ -1,21 +1,21 @@
-define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Girls', //Will appear in the data.
+		    name : 'Black people', //Will appear in the data.
 		    title : {
-		      media : {word : 'Girl'}, //Name of the category presented in the task.
+		      media : {word : 'Black people'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : 'Jenny'}, 
-    			{word : 'Jen'}, 
-    			{word : 'Katy'}, 
-    			{word : 'Madison'}, 
-    			{word : 'Amy'}, 
-    			{word : 'Melissa'}
+    		    	{image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+    			{image : 'black5.jpg'}, 
+    			{image : 'black6.jpg'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -23,38 +23,38 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
 
   		attribute1 : 
 			{
-			name : 'Not Sport', //Attribute label
+			name : 'Unpleasant', //Attribute label
 			title : {
-				media : {word : 'Not Sport'}, //Name of the category presented in the task.
+				media : {word : 'Negative'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Barbie'},
-				{word: 'Dress'},
-				{word: 'Perfume'},
-				{word: 'Nails'},
-				{word: 'Dolls'},
-				{word: 'Pink'}
+				{word: 'Bomb'},
+				{word: 'Abuse'},
+				{word: 'Sadness'},
+				{word: 'Pain'},
+				{word: 'Poison'},
+				{word: 'Grief'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Sport', //Attribute label
+			name : 'Pleasant', //Attribute label
 			title : {
-				media : {word : 'Sport'}, //Name of the category presented in the task.
+				media : {word : 'Positive'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Baseball'},
-				{word: 'Athlete'},
-				{word: 'Run'},
-				{word: 'Speed'},
-				{word: 'Activity'},
-				{word: 'Homerun'}
+				{word: 'Paradise'},
+				{word: 'Pleasure'},
+				{word: 'Cheer'},
+				{word: 'Wonderful'},
+				{word: 'Splendid'},
+				{word: 'Love'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -65,4 +65,3 @@ define(['pipAPI', 'https://rmmurray11.github.io/ross/extension.js'], function(AP
   }}
   );
   });
-
