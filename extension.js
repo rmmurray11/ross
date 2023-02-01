@@ -27,13 +27,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Tyron'},
-					{word: 'Malik'},
-					{word: 'Terrell'},
-					{word: 'Jazmin'},
-					{word: 'Tiara'},
-					{word: 'Shanice'}
-				],
+    		    {image : 'B1.jpeg'}, 
+    			{image : 'B2.jpeg'}, 
+    			{image : 'B3.jpeg'}, 
+    			{image : 'B4.jpeg'}, 
+    			{image : 'B5.jpeg'}, 
+    			{image : 'B6.jpeg'}
+		    ], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
 			},	
