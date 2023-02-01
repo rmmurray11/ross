@@ -1,1 +1,1 @@
-Use pathway https://rmmurray11.github.io/ross/SC_IAT.js to run example from Qualtrics
+Use pathway https://rmmurray11.github.io/ross/SC2.js to run example from Qualtrics
