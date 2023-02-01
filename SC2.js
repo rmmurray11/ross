@@ -10,7 +10,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    {image : 'B1.jpg'}, 
+    		    {image : 'B1.jpeg'}, 
     			{image : 'B2.jpeg'}, 
     			{image : 'B3.jpeg'}, 
     			{image : 'B4.jpeg'}, 
