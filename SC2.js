@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+				{image : 'w1.jpg'}, 
+    				{image : 'w2.jpg'}, 
+    				{image : 'w3.jpg'}, 
+    				{image : 'w4.jpg'}, 
+    				{image : 'w5.jpg'}, 
+    				{image : 'w6.jpg'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -49,12 +49,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{image : 'm1.jpg'}, 
+    				{image : 'm2.jpg'}, 
+    				{image : 'm3.jpg'}, 
+    				{image : 'm4.jpg'}, 
+    				{image : 'm5.jpg'}, 
+    				{image : 'm6.jpg'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
