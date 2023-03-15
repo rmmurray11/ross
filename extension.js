@@ -558,7 +558,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			}],			
 			// this stimulus used for giving feedback, in this case only the error notification
 			error : [{
-				data:{handle:'error'}, location: {top: 70}, css:{color:'red','font-size':'4em'}, media: {word:'X'}, nolog:true
+				data:{handle:'error'}, location: {top: 70}, css:{color:'red','font-size':'4em'}, media: {word:'TRY AGAIN'}, nolog:true
 			}], 			
 			dummyForLog : [{
 				data:{name:'dummyForLog', alias:'dummyForLog'}, 
