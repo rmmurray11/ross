@@ -152,7 +152,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 			'If you see <font color="#ff0000"><b>TRY AGAIN</b></font>. ' +
 			'Press the other key to continue.<p/>',
-			
+
 			finalText: 'You have completed this task<br/><br/>Press SPACE to continue.', 
 
 			//These are templates for the instructions in the task. 
@@ -171,6 +171,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you see <font color="#ff0000"><b>TRY AGAIN</b></font>. ' +
 				'Press the other key to continue.<br/><br/>' + 
+				'<p align="center">Respond as <b>QUICKLY</b> and as <b>ACCURATELY<b> as possible.</font></p></div>', +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
@@ -181,8 +182,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#31b404">attribute2</font> ' +
 				'and for items that belong to the category <font color="#31b404">thecategory</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
-				'If you see <font color="#ff0000"><b>TRY AGAIN</b></font>. ' +
+				'If you see <font color="#ff0000"><b>TRY AGAIN</b></font>. ' + 
 				'Press the other key to continue.<br/><br/>' + 
+				'<p align="center">Respond as <b>QUICKLY</b> and as <b>ACCURATELY<b> as possible.</font></p></div>', +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
@@ -195,6 +197,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you see <font color="#ff0000"><b>TRY AGAIN</b></font>. ' +
 				'Press the other key to continue.<br/><br/>' + 
+				'<p align="center">Respond as <b>QUICKLY</b> and as <b>ACCURATELY<b> as possible.</font></p></div>', +
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
 			
 			//The default feedback messages for each cutoff. 
