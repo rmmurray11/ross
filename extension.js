@@ -169,6 +169,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
 				'<font color="#31b404">attribute2</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
+				'Please respond as <b>QUICKLY<b> and as <b>ACCURATELY<b> as possible +
 				'If you see <font color="#ff0000"><b>TRY AGAIN</b></font>. ' +
 				'Press the other key to continue.<br/><br/>' + 
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
